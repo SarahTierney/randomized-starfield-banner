@@ -52,5 +52,19 @@ body {
   width: 30px;
 
   background: url("../images/star.svg") no-repeat center center / contain transparent;
+  transform-origin: center;
   animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+
+  0% {
+    width: 10px;
+    height: 10px;
+  }
+
+  100% {
+    width: 40px;
+    height: 40px;
+  }
 }
