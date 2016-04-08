@@ -52,4 +52,5 @@ body {
   width: 30px;
 
   background: url("../images/star.svg") no-repeat center center / contain transparent;
+  animation: pulse 1s infinite alternate;
 }
